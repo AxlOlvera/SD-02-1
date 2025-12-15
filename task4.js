@@ -14,11 +14,11 @@ lineas = prompt("Ingresa la cantidad de líneas que quieres imprimir")
 for(let i = 1; i < 151; i++){
 
   if(i % 3 === 0 && i % 5 === 0 && i % 7 === 0){
-    console.log("FizzBuzz");
-  }else if(i % 3 === 0 && i % 5 === 0){
-    console.log("BuzzWoof");
-  }else if(i % 5 === 0 && i % 7 === 0){
     console.log("FizzBuzzWoof");
+  }else if(i % 3 === 0 && i % 5 === 0){
+    console.log("FizzBuzz");
+  }else if(i % 5 === 0 && i % 7 === 0){
+    console.log("BuzzWoof");
   }else if(i % 3 === 0 && i % 7 === 0){
     console.log("FizzWoof");
   }else if(i % 3 === 0){
